@@ -23,13 +23,15 @@
             <div>
                 <img src="assets/logo.png" alt="">
             </div>
-            <div class="flex items-center gap-2 font-inter text-[#808080]">
+            <div class="sm:flex hidden items-center gap-2 font-inter text-[#808080] text-[16px]">
                 <ul class="flex gap-[48px]">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shope</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">Home</a></li>
+                    <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">Shope</a></li>
+                    <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">About us</a></li>
                 </ul>
-                <i class="fa-solid fa-cart-shopping font-medium text-4 ml-[48px]"></i><span>cart ($56)</span>
+                <i
+                    class="fa-solid fa-cart-shopping font-medium text-4 ml-[48px] hover:text-[#252432] hover:font-bold hover:text-[16px]"></i><span
+                    class="hover:text-[#252432] hover:font-bold hover:text-[16px]">cart ($56)</span>
             </div>
         </nav>
     </header>
@@ -173,7 +175,8 @@
                         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
                             roses to exotic blooms, we
                             offer a wide variety of fresh.</li>
-                        <li class="py-2">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                        <li class="py-2">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                            From classic
                             roses to exotic blooms, we
                             offer a wide variety of fresh.</li>
                         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
@@ -190,6 +193,58 @@
         </div>
     </section>
     <!-- Flower Lover Part -->
+    <!-- Latest Deals Part -->
+    <section>
+        <div class=" max-w-[1320px] mx-auto pt-[130px]">
+            <h2 class="latest_deals_title font-inter font-bold text-[50px] text-[#000000] text-center"><span
+                    class="text-[#E95A08]">Latest</span> Deals</h2>
+            <p
+                class="latest_deals_description font-inter font-regular text-[22px] text-[#808080] text-center w-[900px] mx-auto">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+                blooms, we
+                offer a wide variety of fresh.
+            </p>
+            <div class="grid grid-cols-[366px_auto] gap-6 pt-[50px]">
+                <div class="flex flex-col gap-6">
+                    <div class="w-[366px] rounded-lg overflow-hidden">
+                        <div
+                            class="relative bg-[url('./assets/deal-bloom.png')] bg-no-repeat bg-cover pt-[65px] pb-[83px] rounded-lg">
+                            <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
+                            <div class="relative z-10 text-center">
+                                <p class=" text-white font-inter font-bold text-[20px]">60% Off | Bloom Plant</p>
+                                <a class="underline font-semibold font-inter text-white text-[16px]" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-[366px] rounded-lg overflow-hidden">
+                        <div
+                            class="relative bg-[url('./assets/deal-ana.png')] bg-no-repeat bg-cover pt-[65px] pb-[83px] rounded-lg">
+                            <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
+                            <div class="relative z-10 text-center">
+                                <p class=" text-white font-inter font-bold text-[20px]">30% Off | Ana Plant</p>
+                                <a class="underline font-semibold font-inter text-white text-[16px]" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-lg overflow-hidden">
+                    <div
+                        class="relative bg-[url('./assets/deal-zabo.png')] bg-no-repeat bg-cover pt-[170px] pb-[166px] rounded-lg h-full">
+                        <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
+                        <div class="relative z-10 text-center text-white font-inter font-bold text-[24px]">
+                            <p class="text-white font-inter font-bold text-[40px]">25% Off | Zabo Plant</p>
+                            <a class="underline font-semibold font-inter text-white text-[28px]" href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Latest Deals Part -->
+
 </body>
 
 </html>
