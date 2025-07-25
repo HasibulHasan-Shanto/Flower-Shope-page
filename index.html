@@ -19,57 +19,94 @@
 <body>
     <!-- Header Part -->
     <header>
-        <nav class="max-w-[1320px] mx-auto flex items-center justify-between text-white pt-4  ">
+        <nav class="px-4 sm:px-0 max-w-[1320px] mx-auto flex items-center justify-between text-white pt-4">
             <div>
                 <img src="assets/logo.png" alt="">
             </div>
-            <div class="sm:flex hidden items-center gap-2 font-inter text-[#808080] text-[16px]">
-                <ul class="flex gap-[48px]">
+            <div class="flex items-center gap-2 font-inter text-[#808080] text-[16px]">
+                <ul class="sm:flex hidden gap-[48px]">
                     <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">Home</a></li>
                     <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">Shope</a></li>
                     <li><a class="hover:text-[#252432] hover:font-bold hover:text-[16px]" href="#">About us</a></li>
                 </ul>
-                <i
-                    class="fa-solid fa-cart-shopping font-medium text-4 ml-[48px] hover:text-[#252432] hover:font-bold hover:text-[16px]"></i><span
-                    class="hover:text-[#252432] hover:font-bold hover:text-[16px]">cart ($56)</span>
+                <div class="flex items-center gap-2  ml-12 sm:ml-0">
+                    <i
+                        class="fa-solid fa-cart-shopping font-medium text-4 ml-[48px] hover:text-[#252432] hover:font-bold hover:text-[16px]"></i><span
+                        class="hover:text-[#252432] hover:font-bold hover:text-[16px]">cart ($56)</span>
+                </div>
+
             </div>
         </nav>
     </header>
     <!-- Header Part -->
     <!-- Banner Prt -->
     <section>
-        <div class=" max-w-[1320px] mx-auto pt-[150px]">
-            <div class="flex">
+        <div class="px-4 sm:px-0 max-w-[1320px] mx-auto pt-[150px]">
+            <div class="sm:flex flex-col-2">
                 <div>
                     <h1 class="banner_heading font font-bold text-[65px] text-[#000000]">
                         ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
                     </h1>
-                    <p class="banner_description font-inter font-regular text-[22px] text-[#808080] pr-[213px]">
+                    <p
+                        class="banner_description font-inter font-regular text-[22px] text-[#808080] sm:pr-[213px] pr-10">
                         Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
                         to exotic blooms, we
                         offer a wide variety of fresh flowers that are perfect for any occasion.
                     </p>
                 </div>
-                <img class="" src="assets/hero-flower.png" alt="">
+                <img class="sm:w-full w-full" src="assets/hero-flower.png" alt="">
             </div>
         </div>
     </section>
     <!-- Banner Prt -->
     <!-- product Part -->
     <section>
-        <div class=" max-w-[1320px] mx-auto pt-[120px]">
+        <div class="px-4 sm:px-0 max-w-[1320px] mx-auto sm:pt-[120px] pt-[60px]">
             <h2 class="product_heading font-inter font-bold text-[#000000] text-[50px] text-center"><span
                     class="text-[#E95A08]">Out</span> Plants</h2>
             <p
-                class="product_description font-inter font-regular text-[22px] text-[#808080] text-center w-[900px] mx-auto">
+                class="product_description font-inter font-regular text-[22px] text-[#808080] text-center sm:w-[900px] w-full mx-auto sm:px-0 px-[60px]">
                 Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we
                 offer a wide variety of fresh.
             </p>
         </div>
-        <div class=" max-w-[1320px] mx-auto pt-[50px]">
-            <div class="grid grid-cols-4 gap-[30px]">
+        <div class="px-4 sm:px-0 max-w-[1320px] mx-auto text-center pt-[50px]">
+            <div class="sm:grid grid sm:grid-cols-4 grid-cols-2 sm:gap-[30px] gap-[20px]">
                 <div class="w-[270px] text-center">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
+                        Lily Blossom
+                    </p>
+                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
+                        20 USD
+                    </p>
+                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
+                        to Cart</button>
+                </div>
+                <div class="w-[270px] text-center">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
+                        Lily Blossom
+                    </p>
+                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
+                        20 USD
+                    </p>
+                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
+                        to Cart</button>
+                </div>
+                <div class="w-[270px] text-center  sm:py-0 py-[28px]">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
+                        Lily Blossom
+                    </p>
+                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
+                        20 USD
+                    </p>
+                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
+                        to Cart</button>
+                </div>
+                <div class="w-[270px] text-center  sm:py-0 py-[28px]">
                     <img src="assets/sample-flower-image.png" alt="">
                     <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
                         Lily Blossom
@@ -102,7 +139,7 @@
                     <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
                         to Cart</button>
                 </div>
-                <div class="w-[270px] text-center">
+                <div class="w-[270px] text-center sm:pt-0 pt-[28px]">
                     <img src="assets/sample-flower-image.png" alt="">
                     <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
                         Lily Blossom
@@ -113,40 +150,7 @@
                     <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
                         to Cart</button>
                 </div>
-                <div class="w-[270px] text-center">
-                    <img src="assets/sample-flower-image.png" alt="">
-                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
-                        Lily Blossom
-                    </p>
-                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
-                        20 USD
-                    </p>
-                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
-                        to Cart</button>
-                </div>
-                <div class="w-[270px] text-center">
-                    <img src="assets/sample-flower-image.png" alt="">
-                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
-                        Lily Blossom
-                    </p>
-                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
-                        20 USD
-                    </p>
-                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
-                        to Cart</button>
-                </div>
-                <div class="w-[270px] text-center">
-                    <img src="assets/sample-flower-image.png" alt="">
-                    <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
-                        Lily Blossom
-                    </p>
-                    <p class="product_price font-inter font-bold text-[22px] text-[#111111] py-[10px]">
-                        20 USD
-                    </p>
-                    <button class="font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-[10px]">Add
-                        to Cart</button>
-                </div>
-                <div class="w-[270px] text-center">
+                <div class="w-[270px] text-center sm:pt-0 pt-[28px]">
                     <img src="assets/sample-flower-image.png" alt="">
                     <p class="product_title font-inter font-medium text-[22px] text-[#111111] pt-[10px]">
                         Lily Blossom
@@ -163,28 +167,28 @@
     <!-- product Part -->
     <!-- Flower Lover Part -->
     <section>
-        <div class=" max-w-[1320px] mx-auto pt-[200px]">
-            <div class="flex items-center gap-[290px] relative">
-                <img src="assets/flower-store.png" alt="">
-                <img class="absolute w-[40%] -top-[200px] left-[190px]" src="assets/trusted-badge.png" alt="">
-                <div>
-                    <h2 class="flower_lover_title font-inter font-bold text-[50px] text-[#000000] pr-[100px] ">
+        <div class="px-4 sm:px-0 max-w-[1320px] mx-auto sm:pt-[200px] pt-[50px]">
+            <div class="sm:flex flex-col-2 items-center gap-[290px] relative">
+                <img class="sm:w-full w-full" src="assets/flower-store.png" alt="">
+                <img class="hidden sm:block absolute w-[40%] -top-[200px] left-[190px]" src="assets/trusted-badge.png"
+                    alt="">
+                <div class="px-4 sm:px-0">
+                    <h2 class="flower_lover_title font-inter font-bold text-[32px] sm:text-[50px] text-[#000000]">
                         Flower & Plants Lover
                     </h2>
-                    <ul class="list-disc text-[#808080] font-inter font-regular text-[22px]  ">
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we
-                            offer a wide variety of fresh.</li>
-                        <li class="py-2">Indulge your senses with the beauty and fragrance of our fresh flower shop.
-                            From classic
-                            roses to exotic blooms, we
-                            offer a wide variety of fresh.</li>
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we
-                            offer a wide variety of fresh.</li>
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we
-                            offer a wide variety of fresh.</li>
+                    <ul class="list-disc pl-7 text-[#808080] font-inter font-regular text-[22px] sm:text-[22px]">
+                        <li class="sm:pr-0 pr-[90px]">Indulge your senses with the beauty and fragrance of our fresh
+                            flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li class="sm:pr-0 pr-[90px] py-2">Indulge your senses with the beauty and fragrance of our
+                            fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li class="sm:pr-0 pr-[90px]">Indulge your senses with the beauty and fragrance of our fresh
+                            flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li class="sm:pr-0 pr-[90px]">Indulge your senses with the beauty and fragrance of our fresh
+                            flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
                     </ul>
                 </div>
 
@@ -195,18 +199,18 @@
     <!-- Flower Lover Part -->
     <!-- Latest Deals Part -->
     <section>
-        <div class=" max-w-[1320px] mx-auto pt-[130px]">
+        <div class="px-4 sm:px-0 max-w-[1320px] mx-auto pt-[130px]">
             <h2 class="latest_deals_title font-inter font-bold text-[50px] text-[#000000] text-center"><span
                     class="text-[#E95A08]">Latest</span> Deals</h2>
             <p
-                class="latest_deals_description font-inter font-regular text-[22px] text-[#808080] text-center w-[900px] mx-auto">
+                class="latest_deals_description font-inter font-regular text-[22px] text-[#808080] text-center sm:w-[900px] w-full mx-auto sm:px-0 px-[60px]">
                 Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we
                 offer a wide variety of fresh.
             </p>
-            <div class="grid grid-cols-[366px_auto] gap-6 pt-[50px]">
-                <div class="flex flex-col gap-6">
-                    <div class="w-[366px] rounded-lg overflow-hidden">
+            <div class="sm:grid grid-cols grid-cols-[366px_auto] gap-6 pt-[50px]">
+                <div class="sm:flex flex-col gap-6">
+                    <div class="sm:w-[366px] w-full h-full rounded-lg overflow-hidden">
                         <div
                             class="relative bg-[url('./assets/deal-bloom.png')] bg-no-repeat bg-cover pt-[65px] pb-[83px] rounded-lg">
                             <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -218,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="w-[366px] rounded-lg overflow-hidden">
+                    <div class="sm:w-[366px] w-full h-full rounded-lg overflow-hidden  sm:pt-0 pt-6">
                         <div
                             class="relative bg-[url('./assets/deal-ana.png')] bg-no-repeat bg-cover pt-[65px] pb-[83px] rounded-lg">
                             <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
@@ -231,9 +235,9 @@
                     </div>
                 </div>
 
-                <div class="rounded-lg overflow-hidden">
+                <div class="rounded-lg overflow-hidden sm:pt-0 pt-6">
                     <div
-                        class="relative bg-[url('./assets/deal-zabo.png')] bg-no-repeat bg-cover pt-[170px] pb-[166px] rounded-lg h-full">
+                        class="relative bg-[url('./assets/deal-zabo.png')] bg-no-repeat bg-cover sm:pt-[160px] pt-[65px] sm:pb-[166px] pb-[83px] rounded-lg h-full">
                         <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
                         <div class="relative z-10 text-center text-white font-inter font-bold text-[24px]">
                             <p class="text-white font-inter font-bold text-[40px]">25% Off | Zabo Plant</p>
@@ -249,32 +253,41 @@
 
     <!-- Colorful Bunch Part -->
     <section>
-        <div class="pt-[120px]">
-            <div class="relative bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg-cover  pt-[199px] pb-[193px]">
+        <div class="px-4 sm:px-0 sm:pt-[120px]  pt-[40px]">
+            <div
+                class="sm:w-full w-full relative bg-[url('./assets/news-letter-bg.png')] bg-no-repeat bg-cover  sm:pt-[199px] pt-[115px] sm:pb-[193px] pb-[60px]">
                 <div class="absolute inset-0 bg-black/50"></div>
                 <div>
                     <h2
-                        class="colorful_bunch_title font-inter font-bold text-[50px] text-[#FFFFFF] text-center z-10 relative">
+                        class="colorful_bunch_title font-inter sm:font-bold font-bold sm:text-[50px] text-[30px] text-[#FFFFFF] text-center z-10 relative">
                         Join the Colorful Bunch
 
                     </h2>
-                    <div class="  text-center mx-auto  z-10 relative">
-                        <input type="email" name="email" id="email"
-                            class=" bg-[#FFFFFF] w-[830px] h-[59.5px] mt-[25px] p-4" placeholder="Write email ..."><span
-                            class="font-semibold font-inter text-[#FFFFFF] text-4 bg-[#E95A08] px-[53px] py-[18.9px]">Subscribe</span>
+                    <div class="z-10 relative flex justify-center mx-auto  sm:w-[700px] w-[80%] h-[53px] mt-[25px]">
+                        <input class="bg-[#FFFFFF] h-[51.5px]  p-4 w-[70%]" type="email" name="email" id="email"
+                            placeholder="write mail ">
+                        <button
+                            class="flex items-center font-inter font-semibold text-white text-[16px] flex justify-center w-[30%] bg-[#E95A08] p-4">shanto</button>
                     </div>
+                    <!-- <div class="h-[50px] flex items-center text-center mx-auto  z-10 relative">
+                        <input type="email" name="email" id="email"
+                            class=" bg-[#FFFFFF] sm:w-[830px] w-[40%] h-[59.5px] mt-[25px] p-4" placeholder="Write email ...">
+                          <button class="flex items-center font-inter font-semibold text-white text-[16px] bg-[#E95A08] px-[92px] py-2">shanto</button>
+            
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
     <!-- Colorful Bunch Part -->
     <!-- Footer Part -->
-    <footer class="pt-[50px]">
+    <footer class="px-4 sm:px-0 pt-[50px] sm:pb-0 pb-4">
         <div class="max-w-[1320px] mx-auto">
-            <div class="grid grid-cols-4 gap-10">
-                <div>
-                    <img src="assets/logo.png" alt="">
-                    <p class="footer_title font-inter font-regular text-[22px] text-[#808080] pt-[16px]">
+            <div class="sm:grid grid sm:grid-cols-4 grid-cols gap-10">
+                <div class="">
+                    <img class="sm:w-auto w-auto " src="assets/logo.png" alt="">
+                    <p
+                        class="footer_title font-inter font-regular text-[22px] text-[#808080] pt-[16px] sm:pr-0 pr-[100px]">
                         Indulge your senses with the beauty and fragrance of our fresh flower shop.
                     </p>
                 </div>
